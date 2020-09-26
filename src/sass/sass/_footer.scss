@@ -1,0 +1,223 @@
+.tail {
+    width: 1680px;
+    height: 427px;
+    background: #f6f7f9;
+    padding-top: 20px;
+}
+
+.bottomlist {
+    width: 1200px;
+    height: 335px;
+    // background: fuchsia;
+    margin: 0 auto;
+}
+
+// 智慧家庭
+.Wisdomfamily {
+    width: 200px;
+    height: 179px;
+    // background: red;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 10px;
+    }
+    .aa {
+        width: 70px;
+        //background: palegoldenrod;
+        a {
+            width: 48px;
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+        }
+    }
+}
+
+// 个人与家用产品
+.householdproduct {
+    width: 200px;
+    height: 335px;
+    //  background: thistle;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 10px;
+    }
+    .bb {
+        width: 56px;
+        // height: 231px;
+        // background: palegoldenrod;
+        a {
+            //width: 50px;
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+            display: block;
+        }
+    }
+}
+
+// 商用解决方案
+.Commercialsolutions {
+    width: 200px;
+    height: 257px;
+    // background: forestgreen;
+    ;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+    }
+    .cc {
+        width: 84px;
+        //height: 300px;
+        //  background: palegoldenrod;
+        a {
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+            display: block;
+        }
+    }
+}
+
+//购买与服务
+.PurchasesandServices {
+    width: 200px;
+    height: 153px;
+    // background: rosybrown;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+    }
+    .dd {
+        width: 84px;
+        //height: 300px;
+        //background: palegoldenrod;
+        a {
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+            display: block;
+        }
+    }
+}
+
+// 关于海尔
+.Abouthaier {
+    width: 200px;
+    height: 127px;
+    //background: royalblue;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+    }
+    .ee {
+        width: 84px;
+        // height: 300px;
+        //background: palegoldenrod;
+        a {
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+            display: block;
+        }
+    }
+}
+
+//友情链接
+.blogroll {
+    width: 200px;
+    height: 153px;
+    //background: orchid;
+    float: left;
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+    }
+    .ff {
+        width: 108px;
+        // height: 300px;
+        // background: palegoldenrod;
+        a {
+            height: 16px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 0px;
+            display: block;
+        }
+    }
+}
+
+//底部详情
+.dibu {
+    width: 1200px;
+    height: 59px;
+    margin: 0 auto;
+    background: red;
+    padding: 15px 0px;
+    border-top: 1px solid #ccc;
+    a {
+        line-height: 59px;
+        width: 48px;
+        height: 15px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #444;
+    }
+    span {
+        width: 3px;
+        height: 15px;
+        padding: 0px 8px;
+    }
+    .lu {
+        margin-left: 62px;
+    }
+}
+
+.beian {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.haierjituan {
+    color: #444;
+}
+
+#icon {
+    width: 25px;
+    height: 29px;
+    padding: 0px;
+}
