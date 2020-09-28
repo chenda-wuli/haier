@@ -3,6 +3,8 @@
     height: 427px;
     background: #f6f7f9;
     padding-top: 20px;
+    position: relative;
+    top: 330px;
 }
 
 .bottomlist {
@@ -186,7 +188,7 @@
     width: 1200px;
     height: 59px;
     margin: 0 auto;
-    background: red;
+    //background: red;
     padding: 15px 0px;
     border-top: 1px solid #ccc;
     a {
