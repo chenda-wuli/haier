@@ -5,33 +5,247 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .box1 {
-            width: 0;
-            border-left: 52px solid transparent;
-            border-right: 52px solid transparent;
-            border-bottom: 30px solid #6c6;
-        }
-        
-        .box2 {
-            width: 104px;
-            height: 60px;
-            background-color: #6c6;
-        }
-        
-        .box3 {
-            width: 0;
-            border-top: 30px solid #6c6;
-            border-left: 52px solid transparent;
-            border-right: 52px solid transparent;
-        }
-    </style>
+    <link rel="stylesheet" href="./sass/css/list.css">
+    <link rel="stylesheet" href="./font_2101542_2nem9239zvw/iconfont.css">
+    <script src="./script/require.js" data-main="./script/main.js" defer async="true" id="currentpage" data-page="list_module">
+    </script>
+
 </head>
 
+
 <body>
-    <div class="box1"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
+    <!-- 最外层盒子 -->
+    <div class="box">
+        <!--外层顶部 -->
+        <div class="head">
+            <!--顶部  -->
+            <div class="groundfloor">
+                <!-- logo外层与菜单外层 -->
+                <div class="logoouter">
+                    <!-- logo -->
+                    <div class="logo"><img src="./img/haier.logo.jpg" alt="">
+                    </div>
+                    <!-- 菜单栏 -->
+                    <ul class="navigation">
+                        <li class="menubar1 ">智慧家庭
+                            <div class="secondlevelone1">
+                                <a href="https://www.haier.com/smarthome/?spm=cn.29341_pc.header_smarthome_20190920.1">智慧首页</a>
+                                <a href="#">智家方案</a>
+                                <a href="#">智慧家电</a>
+                                <a href="#">生活资讯</a>
+                                <a href="#">智慧体验店</a>
+                            </div>
+                        </li>
+
+                        <li class="menubar2 ">个人与家用产品
+                            <div class="secondlevelone2">
+
+                                <div class="big"><span class="iconfont">&#xe64c;&nbsp;&nbsp;冰箱冷柜</span>
+
+
+
+                                </div>
+                                <div class="big"><span class="iconfont">&#xe69c;&nbsp;&nbsp;冰柜酒吧</span> </div>
+                                <div class="big"><span class="iconfont">&#xec78;&nbsp;&nbsp;洗衣机</span> </div>
+                                <div class="big"><span class="iconfont">&#xec78;&nbsp;&nbsp;洗衣机</span> </div>
+                                <div class="big"><span class="iconfont">&#xe60a;&nbsp;&nbsp;空调</span> </div>
+                                <div class="big"> <span class="iconfont">&#xe680;&nbsp;&nbsp;电视</span> </div>
+                                <div class="big"><span class="iconfont">&#xe66e;&nbsp;&nbsp;热水器</span> </div>
+                                <div class="big"><span class="iconfont">&#xe62e;&nbsp;&nbsp;厨房电器</span> </div>
+                                <div class="big"><span class="iconfont">&#xe6b9;&nbsp;&nbsp;电脑及外设</span> </div>
+                                <div class="big"><span class="iconfont">&#xe62b;&nbsp;&nbsp;小家电</span> </div>
+                            </div>
+                            <div class="cartlist">
+
+                                <div class="item">
+                                    第一块内容</div>
+                                <div class="item">第二块内容</div>
+                                <div class="item">第三块内容</div>
+                                <div class="item">第四块内容</div>
+                                <div class="item">第五块内容</div>
+                                <div class="item">第五块内容</div>
+                                <div class="item">第六块内容</div>
+                                <div class="item">第七块内容</div>
+                                <div class="item">第八块内容</div>
+                                <div class="item">第九块内容</div>
+                            </div>
+                        </li>
+                        <li class="menubar3">商用解决方案</li>
+                        <li class="menubar4">购买与服务</li>
+                        <li class="menubar5">关于海尔</li>
+                    </ul>
+                </div>
+                <!-- 搜索框部分 -->
+                <div class="tools">
+                    <!-- 真正的搜索框 -->
+                    <div class="searchbox ">
+
+                        <input type="text" value="8k解码电视">
+
+                        <span class="iconfont" id="iconfontone">&#xe602;</span>
+                    </div>
+                    <span class="iconfont" id="iconfonttwo">&#xe603;</span>
+                    <span class="iconfont" id="iconfontthree">&#xe638;</span>
+                </div>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="slideshow"> <img src="https://image.haier.com/cn/freezer/W020190917618291345156.png" alt=""></div>
+
+        <div class="mainbody_constraints">
+            <a href="">首页></a>
+
+        </div>
+        <div class="prolist_titboxo_xs-hide">
+            <div class="box2">
+                <div class="bingxiang">冰箱</div>
+                <span>共227个商品</span>
+                <button class="mr">默认排序</button>
+                <button class="up">升序排序</button>
+                <button>降序排序</button>
+                <!-- 渲染数据的结构 -->
+                <div class="list">
+                    <ul>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 商品的列表外层盒子 -->
+        <div class="boox">
+            <div class="mainbody_constraintsprolistbox">
+                <!-- 具体的产品列表 -->
+                <div class="product_listbox">
+                    <ul>
+
+                    </ul>
+                </div>
+                <!-- 根据浏览器猜你喜欢 -->
+                <div class="youlike"></div>
+            </div>
+        </div>
+
+        <!-- 分页 -->
+
+        <div class=" paging">
+            <!-- 分页的结构 -->
+            <div class="pagelist">
+                <div class="m-style page">
+                </div>
+            </div>
+            <!-- <span>＜上一页 </span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>....</span>
+            <span>9</span>
+            <span>下一页＞</span> -->
+        </div>
+
+        <!-- 底部 -->
+        <div class="tail">
+            <!-- 底部列表 -->
+            <div class="bottomlist">
+                <!-- 智慧家庭 -->
+                <div class="Wisdomfamily">
+                    <span>智慧家庭</span>
+                    <ul class="aa">
+                        <a href="#">智慧首页</a>
+                        <a href="#">智慧方案</a>
+                        <a href="#">智慧家电</a>
+                        <a href="#">生活资讯</a>
+                        <a href="#">智慧体验店</a>
+                    </ul>
+
+                </div>
+                <!-- 个人与家用产品 -->
+                <div class="householdproduct ">
+                    <span>个人与家用产品</span>
+                    <ul class="bb">
+                        <a href="#">冰箱</a>
+                        <a href="#">冷柜</a>
+                        <a href="#">冰吧</a>
+                        <a href="#">酒柜</a>
+                        <a href="#">洗衣机</a>
+                        <a href="#">空调</a>
+                        <a href="#">电视</a>
+                        <a href="#">热水器</a>
+                        <a href="#">厨房电器</a>
+                    </ul>
+
+                </div>
+                <!-- 商用解决方案 -->
+                <div class="Commercialsolutions">
+                    <span>商用解决方案</span>
+                    <ul class="cc">
+                        <a href="#">中央空调</a>
+                        <a href="#">商用冷柜</a>
+                        <a href="#">商用洗涤</a>
+                        <a href="#">商用电视</a>
+                        <a href="#">商用电脑</a>
+                        <a href="#">U-home</a>
+                        <a href="#">商用净水设备</a>
+                        <a href="#">商用热泵</a>
+                    </ul>
+
+                </div>
+                <!-- 购买与服务 -->
+                <div class="PurchasesandServices">
+                    <span>购买与服务</span>
+                    <ul class="dd">
+                        <a href="#">产品导购</a>
+                        <a href="#">产品购买</a>
+                        <a href="#">服务与支持</a>
+                        <a href="#">会员尊享</a>
+                    </ul>
+
+                </div>
+                <!-- 关于海尔 -->
+                <div class="Abouthaier">
+                    <span>关于海尔</span>
+                    <ul class="ee">
+                        <a href="#">海尔品牌</a>
+                        <a href="#">投资者关系</a>
+                        <a href="#">品牌资讯</a>
+                    </ul>
+
+                </div>
+                <!-- 友情链接 -->
+                <div class="blogroll">
+                    <span>友情链接</span>
+                    <ul class="ff">
+                        <a href="#">智慧生活体验馆</a>
+                        <a href="#">创客实验室</a>
+                        <a href="#">COSMOPlat平台</a>
+                        <a href="#">海尔创意平台</a>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- 底部详情 -->
+            <div class="dibu">
+                <a href="https://www.haier.com/about_haier/haiererpinpai/ppjj/?spm=cn.29341_pc.footer_bottom_20190920.1">关于海尔</a>
+                <span>|</span>
+                <a href="https://www.haier.com/cn/terms_conditions/?spm=cn.29341_pc.footer_bottom_20190920.2">法律声明</a>
+                <span>|</span>
+                <a href="https://www.haier.com/contact/?spm=cn.29341_pc.footer_bottom_20190920.3">关于我们</a>
+                <span>|</span>
+                <a href="https://www.haier.com/help/?spm=cn.29341_pc.footer_bottom_20190920.4">帮助中心</a>
+                <span>|</span>
+                <a href="https://www.haier.com/store.shtml?spm=cn.29341_pc.footer_bottom_20190920.5">海尔门店</a>
+
+                <a href="https://beian.miit.gov.cn/#/Integrated/index" class="lu">鲁ICP备09096283</a>
+                <span>|</span>
+                <span class="beian">© 2000-2020 Haier.com. All rights reserved.</span>
+                <span> 海尔集团 | Haier 全球网站群 · <a href="#">中国</a> 关注海尔 </span> <span class="iconfont" id="icon">&#xe619;
+                </span>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
